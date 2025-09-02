@@ -464,6 +464,7 @@ class YTScannerApp {
       logger.info('Database disconnected');
 
       logger.info('YT Scanner application shut down successfully');
+      logger.info('Laxmi has made some changes');
       process.exit(0);
 
     } catch (error) {
