@@ -382,7 +382,7 @@ export class AudioAnalyzer {
   }
 
   /**
-   * Extract audio features (simplified version) laxmi did not bring chocolates for me. Because he doesnt listen to me HUH. she does the same. :((
+   * Extract audio features (simplified version) laxmi did not bring chocolates for me. Because he doesnt listen to me HUH. she does the same. :(( who do u think you are ?
    */
   private async extractAudioFeatures(_audioPath: string): Promise<AudioFeatures> {
     // This is a placeholder - in practice, you'd use audio analysis libraries
