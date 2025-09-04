@@ -43,7 +43,7 @@ class YTScannerApp {
       credentials: true
     }));
 
-    // Raw body parsing for webhooks (before JSON parsing)
+    // Raw body parsing for webhooks (before JSON parsing) to add parsing manishmh
     this.app.use('/api/webhook', express.raw({ type: 'application/atom+xml', limit: '1mb' }));
     this.app.use('/api/webhook', express.raw({ type: 'text/xml', limit: '1mb' }));
     this.app.use('/api/webhook', express.text({ type: 'text/plain', limit: '1mb' }));
